@@ -1,0 +1,36 @@
+{
+    "name": "kk sir",
+    "description": "A Telegram CC Checker Bot with hella lotta features.",
+    "logo": "https://pbs.twimg.com/profile_images/1252291883793027074/RfEhm8yV_400x400.jpg",
+    "keywords": [
+        "Telegram",
+        "Bot",
+        "Modular"
+    ],
+    "website": "https://telegram.me/SDMN_CheckerBot",
+    "repository": "https://github.com/iam-NVN/SDMN_CheckerBot",
+    "env": {
+        "TOKEN": {
+            "description": "Enter your Bot Token Here. Get it from @Botfather",
+            "value": "",
+            "required": true
+        },
+         "CHAT_ID_FORWARD": { "description": "Enter the User ID",
+         "value": "",
+         "required": true
+         },
+       
+        "TIMEZONE": {
+            "description": "Your Preffered TimeZone",
+            "value": "Asia/Kolkata",
+            "required": false
+        }
+    },
+    "formation": 
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
